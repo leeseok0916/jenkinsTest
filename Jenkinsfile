@@ -16,6 +16,16 @@ node {
 	stage ('print') {
 		print(hello) // 함수 + 변수 사용
 	}
+
+  stage('Parallel-test') {
+      parallel 'Build-test-1' : {
+          build job : 'Build-test-1'
+      } , 'Build-test-2' : {
+          build job : 'Build-test-2'
+      } , 'Build-test-3' : {
+          build job : 'Build-test-3'
+      }
+  } 
 }
 
 // 함수 선언 - 반환 타입이 없기때문에 void로 선언, def로 선언하면 됨???
