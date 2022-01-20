@@ -15,6 +15,7 @@ node {
 
 	stage ('print') {
 		print(hello) // 함수 + 변수 사용
+		sh 'printenv'
 	}
 
   stage('Parallel-test') {
