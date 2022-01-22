@@ -11,3 +11,4 @@
 
 GitHub hook trigger for GITScm polling
 SCM으로 젠킨스 파이프라인 빌드해보기4
+SCM으로 젠킨스 파이프라인 빌드해보기5
