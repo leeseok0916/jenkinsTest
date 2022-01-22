@@ -7,3 +7,6 @@
 
 일반 Job에서 깃허브를 참고하고 있을 때
 파이프라인 Job에서 깃허브를 참고 잇을 때
+
+
+GitHub hook trigger for GITScm polling
