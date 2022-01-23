@@ -1,10 +1,10 @@
-console.log('젠킨스가 실행함');
-console.log('젠킨스가 실행함');
-console.log('젠킨스가 실행함');
-console.log('젠킨스가 실행함');
+const express = require('express');
+const app = express();
 
+app.get('/', (req, res) => {
+  res.send('하이~월드~')
+})
 
-console.log('젠킨스가 실행함');
-
-
-console.log('젠킨스가 실행함');
+app.listen(3000, () => {
+  console.log('실행중....')
+})
