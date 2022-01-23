@@ -1,3 +1,4 @@
+// 레파지토리 소스에 Jenkinsfile 만들고 그걸 실행시켜보기
 // pipeline {
 //     agent any
     
@@ -23,6 +24,7 @@
 //     }
 // }
 
+// 도커 파일을 이용해서 도커 이미지 생성하기
 pipeline {
     agent any
     
